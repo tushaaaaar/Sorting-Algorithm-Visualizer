@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    margin-top: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+}
+.header
+{
+    margin-bottom: 20px;
+}
+
+h1
+{
+    font-family: cursive;
+    font-size: 2vw;
+    padding: 20px;
+    background-color: #33FF57;
+    background-image: linear-gradient(#33FF57, cyan);
+    display: flex;
+    justify-content: center;
+}
+
+.bar{
+    /* border-top-left-radius: 0.4vw;
+    border-top-right-radius: 0.4vw; */
+    border-radius: 0.4vw;
+	width:0.6vw;
+	margin:0.1vw;
+	background-color: #33FF57;
+    border: 1.5px solid black;
+}
+
+.algos
+{
+    background-color: cyan;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons
+{
+    background-color: cyan;
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+
+
+input[type="button"]
+{
+    margin: 1vw 0;
+}
+
+input[type="button"]:hover, button:hover
+{
+    background-color: rgb(118, 204, 238);
+}
+
+input[type="button"], button{
+	background: white;
+	border: none;
+	padding: 1.3vh;
+	border-radius: 9vw;
+	min-width: 8vw;
+	color: rgb(6, 6, 223);
+	font-size: 1.2vw;
+}
